@@ -24,7 +24,7 @@ function adiBola() {
     var p2 = Math.floor(Math.random() * 400);
 
 
-    bola.setAttribute("style", "left" + p1 + "px;top:" + p2 + "px;");
+    bola.setAttribute("style", "left:" + p1 + "px;top:" + p2 + "px;");
 
 
     bola.setAttribute("onclick", "estourar(this)");
